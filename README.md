@@ -1,4 +1,4 @@
-# async-task-queue
+# task-queue
 
 > A simple way to queue asynchronous tasks
 
@@ -8,6 +8,8 @@
 
 ```bash
 npm i -S @larspa/task-queue
+
+yarn add @larspa/task-queue -S
 ```
 
 ## Usage

@@ -2,9 +2,13 @@
   "name": "@larspa/task-queue",
   "version": "1.0.0",
   "description": "A simple way to queue asynchronous tasks",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
