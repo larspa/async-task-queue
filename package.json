@@ -1,0 +1,28 @@
+{
+  "name": "@larspa/task-queue",
+  "version": "1.0.0",
+  "description": "A simple way to queue asynchronous tasks",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larspa/async-task-queue.git"
+  },
+  "keywords": [
+    "async",
+    "queue",
+    "node"
+  ],
+  "author": "Lars Spaenij <larspaenij@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larspa/async-task-queue/issues"
+  },
+  "homepage": "https://github.com/larspa/async-task-queue#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
