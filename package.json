@@ -1,6 +1,6 @@
 {
   "name": "@larspa/task-queue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple way to queue asynchronous tasks",
   "main": "lib/index.js",
   "files": [
